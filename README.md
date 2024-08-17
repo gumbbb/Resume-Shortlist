@@ -13,13 +13,18 @@ This project extracts names and email addresses from PDF files using Named Entit
 ## Setup
 
 1. Clone the repository:
+```
 git clone https://github.com/gumbbb/Resume-Shortlist.git
-cd Golden-Owl-Intern
+cd Resume-Shortlist
+```
 2. Install the required packages:
+```
 pip install spacy PyMuPDF regex
+```
 3. Download the spaCy English model:
+```
 python -m spacy download en_core_web_sm
-
+```
 ## Usage
 
 1. Train the NER model:
