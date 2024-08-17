@@ -23,9 +23,13 @@ python -m spacy download en_core_web_sm
 ## Usage
 
 1. Train the NER model:
+```
 python train.py
+```
 2. Run the extractor:
+```
 python main.py /path/to/your/pdf/file.pdf /path/to/trained/model
+```
 ## File Structure
 
 - `train.py`: Script to train the NER model
