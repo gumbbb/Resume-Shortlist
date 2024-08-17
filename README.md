@@ -13,7 +13,7 @@ This project extracts names and email addresses from PDF files using Named Entit
 ## Setup
 
 1. Clone the repository:
-git clone https://github.com/gumbbb/Golden-Owl-Intern.git
+git clone https://github.com/gumbbb/Resume-Shortlist.git
 cd Golden-Owl-Intern
 2. Install the required packages:
 pip install spacy PyMuPDF regex
